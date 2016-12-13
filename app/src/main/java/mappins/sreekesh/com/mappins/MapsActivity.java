@@ -14,7 +14,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.os.Handler;
+=======
+>>>>>>> 794d65945a412deac1cfedab69b98795fe437c4f
 import android.os.PersistableBundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
