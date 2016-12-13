@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Map Functions</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="no_pins">There are no pins in the map. Please \'LONG PRESS\' on the location you want to add a pin.</string>
+    <string name="confirm_removal_of_pin">Are you sure you want to remove this pin?\nThis action cannot be undone. Continue?</string>
+    <string name="confirm_clear_map">Your are about to clear all the data in the map.\nThis action cannot be undone. Continue?</string>
+</resources>
