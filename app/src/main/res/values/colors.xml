@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5e35b1</color>
+    <color name="colorPrimaryDark">#432287</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="snackbar_teel">#00b0ff</color>
+    <color name="snackbar_yellow">#ffd600</color>
+    <color name="primary_text_colour">#000000</color>
+    <color name="info_window_title">#ffea00</color>
+    <color name="info_window_click">#00b0ff</color>
+    <color name="toolbar_background">#5e35b1</color>
+    <color name="toolbar_text_colour">#ffe100</color>
+    <color name="details_card_text_colour">#263b28</color>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="15dp"
+    android:paddingStart="15dp"
+    android:paddingRight="15dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/alert_dialogs_border"
+    android:layout_gravity="center_vertical"
+    android:layout_marginBottom="20dp"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Caution!"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text_colour"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/confirm_clear_map"
+            android:textColor="@color/primary_text_colour"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:background="#ffdf3a"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Cancel"
+            android:clickable="true"
+            android:id="@+id/cancel_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:background="#ffdf3a"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Confirm"
+            android:clickable="true"
+            android:id="@+id/confirm_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
